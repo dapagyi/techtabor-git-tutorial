@@ -1,5 +1,4 @@
-var text = '';
 for (var i = 1; i <= 100; i++) {
-    text+=i+', ';
+  if (i%3==0) console.log('Fizz');
+  else console.log(i);
 }
-console.log(text);
